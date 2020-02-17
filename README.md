@@ -1,3 +1,5 @@
+This is a fork from Globalpayments/php-sdk
+
 <a href="https://github.com/globalpayments" target="_blank">
     <img src="https://globalpayments.github.io/images/globapaymentsLogo.png" alt="Global Payments logo" title="Global Payments" align="right" width="225" />
 </a>
