@@ -570,6 +570,7 @@ class RealexConnector extends XmlGateway implements IPaymentGateway, IRecurringS
             if (isset($builder->hostedPaymentData->productId)) {
                 $this->setSerializeData('PROD_ID', $builder->hostedPaymentData->productId);
             }
+            /*ADDED SUPPLEMENTARY ON PROCESS*/
             if (isset($builder->hostedPaymentData->supplementaryData)) {
               $this->setSerializeData('SUPPLEMENTARY_DATA', json_encode($builder->hostedPaymentData->supplementaryData));
             }
